@@ -97,7 +97,8 @@ git init
 git add .
 git commit -m "initial vault"
 git branch -M main
-git remote add origin https://github.com/USERNAME/MyVault.git
+
+ https://github.com/USERNAME/MyVault.git
 git push -u origin main
 ```
 
