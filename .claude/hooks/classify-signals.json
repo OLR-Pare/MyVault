@@ -1,0 +1,59 @@
+{
+  "_readme": "Signal patterns for the classify-message hook. Each signal scans user messages and injects routing hints into Claude's context. Edit patterns[] to match your language and workflow. Add new signals following the same shape. No code changes needed — just edit this file.",
+  "signals": [
+    {
+      "name": "DECISION",
+      "message": "DECISION detected — consider logging in [[🧠 Brain/Decisions.md]] and creating a decision record note in the relevant project",
+      "patterns": [
+        "decided", "deciding", "decision", "we chose", "agreed to",
+        "let's go with", "the call is", "going with", "we're going with",
+        "finalized", "confirmed", "locked in", "settled on"
+      ]
+    },
+    {
+      "name": "WIN",
+      "message": "WIN detected — consider adding to [[🧠 Brain/Memory.md]] active context and the relevant project note",
+      "patterns": [
+        "shipped", "launched", "completed", "released", "deployed",
+        "achieved", "won", "closed", "signed", "awarded", "delivered",
+        "finished", "done", "wrapped up", "went live"
+      ]
+    },
+    {
+      "name": "PERSON_CONTEXT",
+      "message": "PERSON CONTEXT detected — consider updating the relevant [[👤 People/]] profile (Interaction Log + Active Items)",
+      "patterns": [
+        "told me", "said that", "feedback from", "met with",
+        "talked to", "spoke with", "mentioned that", "mentioned the",
+        "introduced me to", "connected me with", "heard from"
+      ]
+    },
+    {
+      "name": "PROJECT_UPDATE",
+      "message": "PROJECT UPDATE detected — consider updating the relevant note in [[🚀 Projects/]] and [[🧠 Brain/Memory.md]] if status changed",
+      "patterns": [
+        "project update", "sprint", "milestone", "went live",
+        "rolled out", "merged", "blocked", "unblocked", "progress on",
+        "update on", "status of", "working on", "kicked off"
+      ]
+    },
+    {
+      "name": "MEETING",
+      "message": "MEETING CONTENT detected — consider creating a meeting note in [[🚀 Projects/<project>/Meetings/]] or [[🤝 Meetings/]] if orphan",
+      "patterns": [
+        "meeting", "call", "sync", "standup", "kickoff",
+        "debrief", "1:1", "one on one", "catch up", "discussion",
+        "presentation", "workshop"
+      ]
+    },
+    {
+      "name": "IDEA",
+      "message": "IDEA detected — consider capturing in [[💡 Ideas/]] before it gets lost",
+      "patterns": [
+        "idea", "what if", "we could", "maybe we", "interesting thought",
+        "just realized", "thought about", "been thinking", "what about",
+        "could we", "would it work"
+      ]
+    }
+  ]
+}
