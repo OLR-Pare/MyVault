@@ -2,7 +2,13 @@
 type: idea
 date: 2026-06-02
 description: Overview of Indonesia's automotive industry — market size, key players, EV transition, and the role of digital in reshaping mobility.
-tags: [idea, automotive, indonesia, EV, industry, mobility]
+tags:
+  - idea
+  - automotive
+  - indonesia
+  - EV
+  - industry
+  - mobility
 status: seed
 source:
 project:
