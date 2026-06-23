@@ -31,6 +31,7 @@ relationship: collaborator
 
 | Date | Type | Summary | Link |
 |------|------|---------|------|
+| 2026-06-22 | Meeting | Runthrough Flow Revision — discussed PO/SO/payment flow logic, budget visibility gaps, SO value lock, and pitching cost treatment | [[2026-06-22 Runthrough Flow Revision]] |
 | 2026-06-12 | Meeting | Facilitated Central Office Process Workflow Review — led discussion on vendor registration form changes, approval flow design, and PO form structure across FCN agencies | [[2026-06-12 Central Office Process Workflow Review]] |
 
 ---

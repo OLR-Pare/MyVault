@@ -31,7 +31,7 @@ relationship: executive
 
 | Date | Type | Summary | Link |
 |------|------|---------|------|
-| | | | |
+| 2026-06-22 | Meeting | Runthrough Flow Revision — co-discussed PO/SO logic, Type of Cost simplification, and source-of-truth for job numbers | [[2026-06-22 Runthrough Flow Revision]] |
 
 ---
 
